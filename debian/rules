@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+export DH_GOPKG := jsouthworth.net/go/hash
+
+%:
+	dh $@ --buildsystem=golang --with=golang
+

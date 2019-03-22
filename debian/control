@@ -1,0 +1,16 @@
+Source: golang-jsouthworth-hash
+Section: devel
+Priority: extra
+Maintainer: John Southworth <jx756k@att.com>
+Build-Depends: debhelper (>= 9), dh-golang, golang-go
+Standards-Version: 3.9.8
+Homepage: https://jsouthworth.net/go/hash
+
+Package: golang-jsouthworth-hash-dev
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Built-Using: ${misc:Built-Using}
+Description: Hashing functions from the go standard library made standalone and exported
+ Exported versions of the go standard libraries internal hashing functions.
+ .
+ This package contains the source.
